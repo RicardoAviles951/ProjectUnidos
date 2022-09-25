@@ -1,15 +1,17 @@
-GetInput();
-CalcMovement();
-GroundCheck();
-JumpCheck();
-ObjectCollisions();
-DustTrail();
-if hsp!=0{
-	sprite_index = s_player_run;
-	image_xscale = sign(hsp);
+switch(global.state){
+	case states.normal:
+		PlayerNormal();
+	break;
+	
+	case states.jump:
+		PlayerJump();
+	break;
 }
-else sprite_index = s_player_idle;
-if abs(hsp) >3 {
+
+
+
+
+if abs(hsp) >7 {
 	
 	with(o_camera)
 	{
