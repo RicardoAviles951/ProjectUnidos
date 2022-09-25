@@ -1,14 +1,15 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function JumpCheck(){
-	var jump = false
-if (key_jump) && (on_ground)
+	
+if (key_jump and on_ground)
 {
-jump = true
-}
+	vsp = approach(vsp,-jumpMax,jumpaccel);
+	accel +=.2;
 
-if (jump==true)
-{
-vsp = -jumpspd	
 }
+if !on_ground hsp -= air_fric;
+
+
+
 }
