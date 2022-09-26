@@ -7,7 +7,7 @@ var cur_y = camera_get_view_y(cam);
 switch(cam_state){
 	case camera.gameplay:
 	if instance_exists(target){
-	var _x = target.x-(cam_w/2);
+	var _x = target.x-(cam_w/2)+128;
 		var _y = target.y-(cam_h/2);
 		var new_x = lerp(cur_x,_x,.1);
 		var new_y = lerp(cur_y,_y,.1);

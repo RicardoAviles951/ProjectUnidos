@@ -2,16 +2,13 @@ switch(global.state){
 	case states.normal:
 		PlayerNormal();
 	break;
-	
-	case states.jump:
-		PlayerJump();
-	break;
+
 }
+Flash();
 
 
 
-
-if abs(hsp) >7 {
+if abs(hsp) >12 {
 	
 	with(o_camera)
 	{
