@@ -1,1 +1,1 @@
-draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,flash_val*image_alpha);
+draw_sprite_ext(sprite_index,image_index,x,y,image_xscale*draw_xscale,image_yscale*draw_yscale,image_angle,image_blend,flash_val*image_alpha);

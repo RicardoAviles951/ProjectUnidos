@@ -1,2 +1,2 @@
 instance_destroy();
-other.accel +=.1;
+global.Djump_active = true;
