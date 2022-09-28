@@ -1,0 +1,1 @@
+o_game.add_time = 0;

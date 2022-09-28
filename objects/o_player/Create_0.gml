@@ -22,6 +22,8 @@ flash_val = 1;
 flashtimer = 0;
 draw_xscale = 1;
 draw_yscale = 1;
+jump_fx = false;
+djumping = false;
 
 
 

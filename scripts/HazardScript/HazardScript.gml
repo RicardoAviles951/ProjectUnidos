@@ -4,6 +4,7 @@ with(instance_place(x,y,o_hazard)){
 	other.topspd -=2;
 	other.flash = true;
 	other.alarm[0] = 30;
+	ShakeOnAction();
 	instance_destroy();
 	
 }
