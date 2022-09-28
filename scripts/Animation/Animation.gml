@@ -4,11 +4,18 @@ if !on_ground
 {
 		if vsp < 0 
 		{//Going up
+			if djumping = true{
+				
+				sprite_index = s_player_Djump;
+			}
+			else{
 			sprite_index = s_player_Jump2;
 			image_index = 0;
+			}
 		}
 		else
 		{
+			sprite_index = s_player_Jump2;
 			image_index = 1;
 		}
 		

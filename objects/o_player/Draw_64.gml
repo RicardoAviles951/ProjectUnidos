@@ -17,5 +17,5 @@ draw_text(50,_y+ypad*5,"Use A to decrease max speed.\nUse D to increase max spee
 
 }
 else{
-	draw_text(50,50,"PRESS D FOR DBUG INFO");
+	draw_text(50,50,"PRESS SPACE FOR DBUG INFO");
 }
