@@ -9,6 +9,7 @@ if (key_jump and on_ground)
 	accel +=.2;
 	draw_yscale = 1.25;
 	draw_xscale = .75;
+	audio_play_sound(snd_jump,1,false,1,0,random_range(.5,.75));
 }
 
 if global.Djump_active and !on_ground{

@@ -1,0 +1,1 @@
+music_on = !music_on;

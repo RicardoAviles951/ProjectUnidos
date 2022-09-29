@@ -3,7 +3,7 @@ enum states{
 }
 global.state = states.normal;
 //Horizontal Movement Vars
-topspd =6;
+topspd =8;
 accel = .02;
 hsp = 0;
 minimum_spd = 4;
@@ -29,6 +29,6 @@ djumping = false;
 
 //Debug
 goal_dist = 0;
-dbug_draw = true;
+dbug_draw = false;
 x_adj = 0;
 y_adj = 0;

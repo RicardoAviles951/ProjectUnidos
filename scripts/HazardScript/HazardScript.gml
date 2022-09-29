@@ -5,6 +5,7 @@ with(instance_place(x,y,o_hazard)){
 	other.flash = true;
 	other.alarm[0] = 30;
 	ShakeOnAction();
+	audio_play_sound(snd_damage,1,false);
 	instance_destroy();
 	
 }
