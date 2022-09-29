@@ -4,3 +4,11 @@ if shake_start{
 else{
 	layer_clear_fx("shake");
 }
+
+if haze_start {
+	layer_set_fx("haze",haze);
+}
+else
+{
+	layer_clear_fx("haze");
+}

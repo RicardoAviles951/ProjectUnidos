@@ -1,0 +1,1 @@
+o_fx.haze_start = false;
