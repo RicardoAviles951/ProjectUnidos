@@ -1,0 +1,1 @@
+if instance_exists(o_talkbox) instance_destroy(o_talkbox);
