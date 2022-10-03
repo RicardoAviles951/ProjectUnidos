@@ -1,14 +1,39 @@
-
-switch(music_on){
+switch(rm){
+	case rm_mainmenu:
+		switch(music_on){
 	
-	case true:
-if !audio_is_playing(snd_music) {
-	audio_play_sound(snd_music,1,true);
-	audio_sound_gain(snd_music,1,500);
-}
-break;
+			case true:
+				if !audio_is_playing(snd_menumusic) 
+				{
+					audio_play_sound(snd_menumusic,1,true);
+					audio_sound_gain(snd_menumusic,1,500);
+				}
+			break;
 
-	case false:
-	audio_stop_sound(snd_music);
+			case false:
+					audio_stop_sound(snd_music);
+			break;
+		}
+		
+
+		
+	break;
+	
+	case rm_level:
+		switch(music_on){
+	
+			case true:
+				if !audio_is_playing(snd_music) 
+				{
+					audio_play_sound(snd_music,1,true);
+					audio_sound_gain(snd_music,1,500);
+				}
+			break;
+
+			case false:
+					audio_stop_sound(snd_music);
+			break;
+		}
 	break;
 }
+

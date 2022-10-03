@@ -1,3 +1,7 @@
+if keyboard_check_pressed(vk_right){
+	//instance_destroy();
+}
+
 //DEBUG ONLY
 //Left
 if keyboard_check_pressed(vk_numpad4) x_adj -=1;

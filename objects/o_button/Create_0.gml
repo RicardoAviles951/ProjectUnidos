@@ -1,3 +1,3 @@
-dr = false;
 inst = 0;
-move = false;
+moved = false;
+adj = 12;

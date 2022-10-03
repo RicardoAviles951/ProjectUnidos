@@ -13,7 +13,6 @@ vsp = 0;
 air_fric = 0.05;
 jumpaccel =10;
 jumpMax = 10;
-jumping = false;
 on_ground = false;
 
 //Draw vars
@@ -25,7 +24,8 @@ draw_yscale = 1;
 jump_fx = false;
 djumping = false;
 
-
+//Text 
+text_done = false;
 
 //Debug
 goal_dist = 0;
