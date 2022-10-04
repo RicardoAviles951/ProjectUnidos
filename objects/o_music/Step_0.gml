@@ -11,7 +11,7 @@ switch(rm){
 			break;
 
 			case false:
-					audio_stop_sound(snd_music);
+					audio_stop_sound(snd_menumusic);
 			break;
 		}
 		
@@ -32,6 +32,40 @@ switch(rm){
 
 			case false:
 					audio_stop_sound(snd_music);
+			break;
+		}
+	break;
+	
+	case rm_intro:
+		switch(music_on){
+	
+			case true:
+				if !audio_is_playing(snd_intromusic) 
+				{
+					audio_play_sound(snd_intromusic,1,true);
+					audio_sound_gain(snd_intromusic,.5,500);
+				}
+			break;
+
+			case false:
+					audio_stop_sound(snd_intromusic);
+			break;
+		}
+	break;
+	
+	case rm_credits:
+		switch(music_on){
+	
+			case true:
+				if !audio_is_playing(snd_credits) 
+				{
+					audio_play_sound(snd_credits,1,true);
+					audio_sound_gain(snd_credits,1,500);
+				}
+			break;
+
+			case false:
+					audio_stop_sound(snd_credits);
 			break;
 		}
 	break;

@@ -1,7 +1,7 @@
 TweenEasyMove(x,y,640,90,0,30,EaseOutBack);
 
 //text vars
-myText    = "Hmmm, I need to pick some food to taket to abuela...";
+myText    = "";
 //sprite vars
 sprite  = s_player_idle2;
 //choice = false;
@@ -16,6 +16,7 @@ char_speed = .50;
 text[text_current] = string_wrap(text[text_current], text_width);
 _len = string_length(text[text_current]);
 txt_finished = false;
+image = 0;
 //Debug only
 y_adj = 0
 x_adj = 0;

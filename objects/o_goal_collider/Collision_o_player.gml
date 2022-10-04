@@ -9,3 +9,5 @@ var _x = camx + camw/2;
 var _y = camy + camh*2;
 
 instance_create_layer(_x,_y,"Controllers",o_goalFinish);
+instance_create_layer(_x+192,_y+320,"Instances",o_retry);
+instance_create_layer(_x-384,_y+320,"Instances",o_backmenu);

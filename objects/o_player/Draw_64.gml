@@ -13,7 +13,7 @@ draw_text(50,_y+ypad*2,_acc);
 draw_text(50,_y+ypad*3,_top);
 draw_text(50,_y+ypad*4,goal);
 draw_text(50,_y+ypad*5,"Use A to decrease max speed.\nUse D to increase max speed");
-draw_text(50, _y+ypad*7, "FPS = " + string(fps_real));
+draw_text(50, _y+ypad*7, "FPS = " + string(fps));
 
 }
 else{
