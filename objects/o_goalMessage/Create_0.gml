@@ -1,6 +1,6 @@
 time[0] = "40 sec";
 time[1] = "35 sec";
-time[2] = "32 sec";
+time[2] = "31 sec";
 
 star[0] = s_bronze_star;
 star[1] = s_silver_star;

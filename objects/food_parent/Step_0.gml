@@ -12,7 +12,12 @@ if global.food_count >=3{
 	}
 	
 	
-	with(o_text_box){
-		myText = "Yum! Abuela is going to love this."
-	}
+	//with(o_text_box){
+	//	myText = "Yum! Abuela is going to love this."
+	//}
+}
+
+if tween{
+	TweenEasyMove(x,y,x,y-340,irandom(10),30,EaseOutBack);
+	tween = false
 }

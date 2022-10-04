@@ -1,0 +1,1 @@
+TweenEasyMove(x,y,( o_goalFinish.x + 68),(o_goalFinish.y + 320),0,30,EaseOutBack);

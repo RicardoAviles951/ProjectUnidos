@@ -1,0 +1,1 @@
+if image == 0 image = 1; else image = 0;

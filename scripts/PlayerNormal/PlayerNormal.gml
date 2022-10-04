@@ -4,6 +4,7 @@ CalcMovement();
 GroundCheck();
 JumpCheck();
 HazardScript();
+GetUnstuck();
 ObjectCollisions();
 DustTrail();
 Animation();

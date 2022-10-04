@@ -1,0 +1,10 @@
+draw_self();
+var sw = sprite_get_width(sprite_index);
+var sh = sprite_get_height(sprite_index);
+var c = c_black;
+draw_set_font(f_finish);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_text_ext_transformed_color(x+sw/2,y+sh/2,"RETRY",32,5000,1,1,0,c,c,c,c,1);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);

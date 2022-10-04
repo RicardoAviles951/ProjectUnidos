@@ -6,8 +6,8 @@ var width = guiW - guiW*1/4;
 var scale     = 1.75;
 var c         = c_black;
 
-if counter  > 28counter = 0;
-//draw_sprite_ext(s_player_idle2,counter/7,guiW/4-28,guiH/4-16,scale,scale,0,c_white,1);
+if counter  > 28 counter = 0;
+draw_sprite_ext(s_clicker,image,x+286+x_adj,y+32+y_adj,1,1,0,c_white,1);
 counter++;
 
 
@@ -26,5 +26,5 @@ counter++;
 	    }
 	
 	var _str = string_copy(text[text_current], 1, char_current);
-	draw_text_color(300+x_adj, guiH/16,_str,c,c,c,c,1);
+	draw_text_color(332, guiH/16-6,_str,c,c,c,c,1);
 //draw_line(guiW/4,guiH/8+30,1000,guiH/8+30);
